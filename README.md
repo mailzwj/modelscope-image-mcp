@@ -5,7 +5,7 @@
 ## 功能
 
 - 根据用户输入的鉴权token、图像尺寸和提示词生成图像
-- 支持多种图像尺寸：1024x1024, 1024x1536, 1536x1024, 1344x768, 768x1344
+- 支持多种图像尺寸：1024x1024, 1024x1536, 1536x1024, 1344x768, 768x1344，2048x2048以内任意组合
 - 使用异步任务机制，轮询等待图像生成完成
 
 ## 安装
@@ -25,7 +25,7 @@ python server.py
 ### 测试服务器
 
 ```bash
-mcp dev python server.py
+mcp dev server.py
 ```
 
 ### 工具调用示例
@@ -47,7 +47,7 @@ mcp dev python server.py
 | token | string | 是 | ModelScope API 鉴权Token |
 | prompt | string | 是 | 图像内容描述（英文） |
 | size | string | 否 | 图像尺寸，默认 1024x1024 |
-| model | string | 否 | 使用的模型，默认 Qwen/Qwen-Image |
+| model | string | 否 | 使用的模型，默认 Qwen/Qwen-Image-2512 |
 
 ## 支持的图像尺寸
 
