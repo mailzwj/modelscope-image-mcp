@@ -56,3 +56,15 @@ mcp dev server.py
 - `1536x1024` - 横版
 - `1344x768` - 宽屏
 - `768x1344` - 竖屏
+
+## 服务配置
+```json
+{
+  "mcpServers": {
+    "modelscope-image": {
+      "command": "python3",
+      "args": ["server.py"]
+    }
+  }
+}
+```
