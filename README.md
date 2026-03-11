@@ -19,7 +19,7 @@ pip install -r requirements.txt
 ### 运行服务器
 
 ```bash
-python server.py
+python server.py --stdio
 ```
 
 ### 测试服务器
